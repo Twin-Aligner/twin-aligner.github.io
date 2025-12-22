@@ -132,26 +132,26 @@
           <div class="column has-text-centered">
             <div class="publication-links">
               <!-- PDF Link. -->
-              <span class="link-block">
+              <!-- <span class="link-block"> -->
                 <!-- <a href="https://arxiv.org/pdf/2011.12948" -->
-                <a
+                <!-- <a
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
                   </span>
                   <span>Paper (coming soon)</span>
-                </a>
-              </span>
+                </a> -->
+              <!-- </span> -->
               <!-- arxiv link -->
-              <!-- <span class="link-block"> -->
-                <!-- <a href="https://arxiv.org/abs/2011.12948"
+              <span class="link-block">
+                <a href=""
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
                   </span>
                   <span>arXiv</span>
-                </a> -->
-              <!-- </span> -->
+                </a>
+              </span>
               <!-- Video Link. -->
               <!-- <span class="link-block">
                 <a href=""
@@ -191,21 +191,18 @@
 </section>
 
 <section class="section">
-    <!-- Paper video. -->
+  <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
+      <div class="column is-full-width">
+        <h3 class="title is-3">Video</h3>
         <div class="publication-video">
-          <video width="80%" height="auto" controls>
+          <video width="100%" height="auto" controls>
             <source src="./static/videos/main-v9-crf25.mp4" type="video/mp4">
           </video>
-          <!--
-          <iframe src=""
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          -->
         </div>
       </div>
     </div>
-    <!--/ Paper video. -->
+  </div>
 </section>
 
 <section class="section">
@@ -213,7 +210,7 @@
     <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">Abstract</h2>
+        <h3 class="title is-3">Abstract</h3>
         <div class="content has-text-justified">
           <p>
             The robotics field is evolving towards data-driven,
@@ -244,6 +241,74 @@
       </div>
     </div>
     <!--/ Abstract. -->
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <h3 class="title is-3">Physics-aware Sim2Real Learning</h3>
+        <div class="publication-video">
+          <video width="100%" height="auto" controls>
+            <source src="./static/videos/tasks-1.mp4" type="video/mp4">
+          </video>
+          <!--
+          <iframe src=""
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          -->
+        </div>
+        <div class="hero-body" style="text-align: center;">
+          <img src="./static/images/succ_rate.png" style="width: 100%; height: auto;"/>
+        </div>
+        <div class="content has-text-justified">
+          <p>
+            <strong>Tab. III. Success rates of Sim2Real policy learning. ''-'' means that the method does not support the corresponding task.</strong> 
+            Our method (1) covers all four types of tasks; (2) surpasses the two baselines for all tasks, which is consistent with our high visual-dynamic Real2Sim consistency.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <h3 class="title is-3">Baseline Comparison</h3>
+        <h3 class="title is-4">Pushing Milk Box</h3>
+        <div class="publication-video">
+          <video width="100%" height="auto" controls>
+            <source src="./static/videos/milk_comparison-1.mp4" type="video/mp4">
+          </video>
+          <!--
+          <iframe src=""
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          -->
+        </div>
+        <h3 class="title is-4">Stacking Biscuit Boxes</h3>
+        <div class="publication-video">
+          <video width="100%" height="auto" controls>
+            <source src="./static/videos/stacking_comparison-1.mp4" type="video/mp4">
+          </video>
+          <!--
+          <iframe src=""
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          -->
+        </div>
+        <h3 class="title is-4">Pick-and-Place</h3>
+        <div class="publication-video">
+          <video width="100%" height="auto" controls>
+            <source src="./static/videos/pnp_comparison-1.mp4" type="video/mp4">
+          </video>
+          <!--
+          <iframe src=""
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          -->
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
 <section class="section">
@@ -299,12 +364,18 @@
     <div class="columns is-centered has-text-centered">
       <div class="column is-full-width">
         <h3 class="title is-3">Dynamic Real2Sim</h3>
-        <div class="hero-body" style="text-align: center;">
-          <img src="./static/images/vis_align.png" style="width: 100%; height: auto;"/>
+        <div class="publication-video">
+          <video width="100%" height="auto" controls>
+            <source src="./static/videos/real2sim-1.mp4" type="video/mp4">
+          </video>
+          <!--
+          <iframe src=""
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          -->
         </div>
         <div class="content has-text-justified">
           <p>
-            <strong>Fig. 4. The effectiveness of our visual-dynamic Real2Sim alignment. </strong> 
+            <strong>The effectiveness of our visual-dynamic Real2Sim alignment. </strong> 
             For the robot-object interaction trajectories, we compare real-world camera observation with physics simulation and 3DGS rendering results from TwinAligner. 
             Our method strictly aligns visual-dynamic gap at the pixel level.
           </p>
@@ -315,32 +386,6 @@
         <div class="content has-text-justified">
           <p>
             <strong>Tab. IV. Comparison of dynamic Real2Sim on our method and PIN-WM. </strong> Dynamics learned by TwinAligner achieve better alignment compared to those inferred by PIN-WM. 
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-full-width">
-        <h3 class="title is-3">Sim2Real Policy Learning</h3>
-        <div class="hero-body" style="text-align: center;">
-          <img src="./static/images/tasks.png" style="width: 100%; height: auto;"/>
-        </div>
-        <div class="content has-text-justified">
-          <p>
-            <strong>Fig. 6. Overview of TwinAligner. (a) Tasks of policy evaluation</strong>, covering from physics-related tasks to regular robotic manipulation tasks. <strong>(b) Our hardware setup</strong> includes a Franka Research 3 (FR3) robot, a Realsense D455 depth camera and a shock-proof table.          </p>
-        </div>
-        <div class="hero-body" style="text-align: center;">
-          <img src="./static/images/succ_rate.png" style="width: 100%; height: auto;"/>
-        </div>
-        <div class="content has-text-justified">
-          <p>
-            <strong>Tab. III. Success rates of Sim2Real policy learning. ''-'' means that the method does not support the corresponding task.</strong> 
-            Our method (1) covers all four types of tasks; (2) surpasses the two baselines for all tasks, which is consistent with our high visual-dynamic Real2Sim consistency.
           </p>
         </div>
       </div>
